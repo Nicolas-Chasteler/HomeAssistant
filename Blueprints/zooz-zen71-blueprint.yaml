@@ -112,7 +112,7 @@ trigger:
     event_type: zwave_js_value_notification
     event_data:
       command_class_name: Central Scene
-      device_id: !input zooz_zen76
+      device_id: !input zooz_zen71
 action:
   - variables:
       scene_id: "{{ trigger.event.data.label }}"
